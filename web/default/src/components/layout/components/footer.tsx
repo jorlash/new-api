@@ -81,14 +81,9 @@ function ProjectAttribution(props: { currentYear: number }) {
     <div className='text-muted-foreground/45 text-center text-xs sm:text-right'>
       <span className='text-muted-foreground/45'>
         &copy; {props.currentYear}{' '}
-        <a
-          href='https://github.com/jorlash/router-hub'
-          target='_blank'
-          rel='noopener noreferrer'
-          className='text-foreground/70 hover:text-foreground font-medium transition-colors'
-        >
+        <span className='text-foreground/70 font-medium'>
           {t('Router Hub')}
-        </a>
+        </span>
         . {t(ROUTER_HUB_FOOTER_ATTRIBUTION_KEY)}
       </span>
     </div>
@@ -142,23 +137,6 @@ export function Footer(props: FooterProps) {
           {
             text: t('footer.columns.docs.links.apiDocs'),
             href: 'https://docs.newapi.pro/en/docs/api',
-          },
-        ],
-      },
-      {
-        title: t('footer.columns.related.title'),
-        links: [
-          {
-            text: t('footer.columns.related.links.oneApi'),
-            href: 'https://github.com/songquanpeng/one-api',
-          },
-          {
-            text: t('footer.columns.related.links.midjourney'),
-            href: 'https://github.com/novicezk/midjourney-proxy',
-          },
-          {
-            text: t('footer.columns.related.links.newApiKeyTool'),
-            href: 'https://github.com/jorlash/router-hub-key-tool',
           },
         ],
       },

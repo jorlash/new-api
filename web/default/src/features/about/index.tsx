@@ -56,64 +56,28 @@ function EmptyAboutState() {
           </p>
         </div>
         <div className='space-y-4 text-sm'>
-          <p>
-            {t('Router Hub Project Repository:')}{' '}
-            <a
-              href='https://github.com/jorlash/router-hub'
-              target='_blank'
-              rel='noopener noreferrer'
-              className='text-primary hover:underline'
-            >
-              {t('https://github.com/jorlash/router-hub')}
-            </a>
-          </p>
           <p className='text-muted-foreground'>
-            <a
-              href='https://github.com/jorlash/router-hub'
-              target='_blank'
-              rel='noopener noreferrer'
-              className='text-primary hover:underline'
-            >
+            <span className='text-primary font-medium'>
               {t('NewAPI')}
-            </a>{' '}
+            </span>{' '}
             © {currentYear}{' '}
-            <a
-              href='https://github.com/jorlash'
-              target='_blank'
-              rel='noopener noreferrer'
-              className='text-primary hover:underline'
-            >
+            <span className='text-primary font-medium'>
               {t('jorlash')}
-            </a>{' '}
+            </span>{' '}
             {t('| Based on')}{' '}
-            <a
-              href='https://github.com/songquanpeng/one-api'
-              target='_blank'
-              rel='noopener noreferrer'
-              className='text-primary hover:underline'
-            >
+            <span className='text-primary font-medium'>
               {t('One API')}
-            </a>{' '}
+            </span>{' '}
             © 2023{' '}
-            <a
-              href='https://github.com/songquanpeng'
-              target='_blank'
-              rel='noopener noreferrer'
-              className='text-primary hover:underline'
-            >
+            <span className='text-primary font-medium'>
               {t('JustSong')}
-            </a>
+            </span>
           </p>
           <p className='text-muted-foreground'>
             {t('This project must be used in compliance with the')}{' '}
-            <a
-              href='https://github.com/jorlash/router-hub/blob/main/LICENSE'
-              target='_blank'
-              rel='noopener noreferrer'
-              className='text-primary hover:underline'
-            >
+            <span className='text-primary font-medium'>
               {t('AGPL v3.0 License')}
-            </a>
+            </span>
             .
           </p>
         </div>

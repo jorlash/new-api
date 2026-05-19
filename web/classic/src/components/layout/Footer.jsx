@@ -126,30 +126,12 @@ const FooterBar = () => {
                   {t('相关项目')}
                 </p>
                 <div className='flex flex-col gap-4'>
-                  <a
-                    href='https://github.com/songquanpeng/one-api'
-                    target='_blank'
-                    rel='noopener noreferrer'
-                    className='!text-semi-color-text-1'
-                  >
+                  <span className='!text-semi-color-text-1'>
                     One API
-                  </a>
-                  <a
-                    href='https://github.com/novicezk/midjourney-proxy'
-                    target='_blank'
-                    rel='noopener noreferrer'
-                    className='!text-semi-color-text-1'
-                  >
+                  </span>
+                  <span className='!text-semi-color-text-1'>
                     Midjourney-Proxy
-                  </a>
-                  <a
-                    href='https://github.com/jorlash/router-hub-key-tool'
-                    target='_blank'
-                    rel='noopener noreferrer'
-                    className='!text-semi-color-text-1'
-                  >
-                    router-hub-key-tool
-                  </a>
+                  </span>
                 </div>
               </div>
 
@@ -158,22 +140,12 @@ const FooterBar = () => {
                   {t('友情链接')}
                 </p>
                 <div className='flex flex-col gap-4'>
-                  <a
-                    href='https://github.com/jorlash/router-hub-horizon'
-                    target='_blank'
-                    rel='noopener noreferrer'
-                    className='!text-semi-color-text-1'
-                  >
-                    router-hub-horizon
-                  </a>
-                  <a
-                    href='https://github.com/coaidev/coai'
-                    target='_blank'
-                    rel='noopener noreferrer'
-                    className='!text-semi-color-text-1'
-                  >
+                  <span className='!text-semi-color-text-1'>
+                    Router Hub Horizon
+                  </span>
+                  <span className='!text-semi-color-text-1'>
                     CoAI
-                  </a>
+                  </span>
                   <a
                     href='https://www.gpt-load.com/'
                     target='_blank'
@@ -199,14 +171,9 @@ const FooterBar = () => {
             <span className='!text-semi-color-text-1'>
               {t('设计与开发由')}{' '}
             </span>
-            <a
-              href='https://github.com/jorlash/router-hub'
-              target='_blank'
-              rel='noopener noreferrer'
-              className='!text-semi-color-primary font-medium'
-            >
+            <span className='!text-semi-color-primary font-medium'>
               Router Hub
-            </a>
+            </span>
           </div>
         </div>
       </footer>
@@ -231,14 +198,9 @@ const FooterBar = () => {
               <span className='!text-semi-color-text-1'>
                 {t('设计与开发由')}{' '}
               </span>
-              <a
-                href='https://github.com/jorlash/router-hub'
-                target='_blank'
-                rel='noopener noreferrer'
-                className='!text-semi-color-primary font-medium'
-              >
+              <span className='!text-semi-color-primary font-medium'>
                 Router Hub
-              </a>
+              </span>
             </div>
           </div>
         </footer>

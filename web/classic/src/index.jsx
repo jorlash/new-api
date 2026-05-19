@@ -38,7 +38,7 @@ import { ROUTER_BASENAME } from './helpers/basePath';
 // Welcome message (Do not remove this without permission from the original developer)
 if (typeof window !== 'undefined') {
   console.log(
-    '%cWE ❤ NEWAPI%c Github: https://github.com/jorlash/router-hub',
+    '%cWE ❤ Router Hub%c',
     'color: #10b981; font-weight: bold; font-size: 24px;',
     'color: inherit; font-size: 14px;',
   );

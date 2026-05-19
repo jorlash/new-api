@@ -62,62 +62,28 @@ const About = () => {
   const customDescription = (
     <div style={{ textAlign: 'center' }}>
       <p>{t('可在设置页面设置关于内容，支持 HTML & Markdown')}</p>
-      {t('Router Hub项目仓库地址：')}
-      <a
-        href='https://github.com/jorlash/router-hub'
-        target='_blank'
-        rel='noopener noreferrer'
-        className='!text-semi-color-primary'
-      >
-        https://github.com/jorlash/router-hub
-      </a>
       <p>
-        <a
-          href='https://github.com/jorlash/router-hub'
-          target='_blank'
-          rel='noopener noreferrer'
-          className='!text-semi-color-primary'
-        >
+        <span className='!text-semi-color-primary font-medium'>
           NewAPI
-        </a>{' '}
+        </span>{' '}
         {t('© {{currentYear}}', { currentYear })}{' '}
-        <a
-          href='https://github.com/jorlash'
-          target='_blank'
-          rel='noopener noreferrer'
-          className='!text-semi-color-primary'
-        >
+        <span className='!text-semi-color-primary font-medium'>
           jorlash
-        </a>{' '}
+        </span>{' '}
         {t('| 基于')}{' '}
-        <a
-          href='https://github.com/songquanpeng/one-api/releases/tag/v0.5.4'
-          target='_blank'
-          rel='noopener noreferrer'
-          className='!text-semi-color-primary'
-        >
+        <span className='!text-semi-color-primary font-medium'>
           One API v0.5.4
-        </a>{' '}
+        </span>{' '}
         © 2023{' '}
-        <a
-          href='https://github.com/songquanpeng'
-          target='_blank'
-          rel='noopener noreferrer'
-          className='!text-semi-color-primary'
-        >
+        <span className='!text-semi-color-primary font-medium'>
           JustSong
-        </a>
+        </span>
       </p>
       <p>
         {t('本项目根据')}
-        <a
-          href='https://github.com/songquanpeng/one-api/blob/v0.5.4/LICENSE'
-          target='_blank'
-          rel='noopener noreferrer'
-          className='!text-semi-color-primary'
-        >
+        <span className='!text-semi-color-primary font-medium'>
           {t('MIT许可证')}
-        </a>
+        </span>
         {t('授权，需在遵守')}
         <a
           href='https://www.gnu.org/licenses/agpl-3.0.html'
