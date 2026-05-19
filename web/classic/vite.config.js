@@ -24,8 +24,27 @@ import path from 'path';
 import { codeInspectorPlugin } from 'code-inspector-plugin';
 const { vitePluginSemi } = pkg;
 
+function normalizeViteBase(value) {
+  if (!value || value === '/') {
+    return '/';
+  }
+
+  let normalized = value.trim();
+  if (!normalized.startsWith('/')) {
+    normalized = `/${normalized}`;
+  }
+  if (!normalized.endsWith('/')) {
+    normalized = `${normalized}/`;
+  }
+
+  return normalized;
+}
+
+const viteBase = normalizeViteBase(process.env.VITE_ROUTER_BASENAME);
+
 // https://vitejs.dev/config/
 export default defineConfig({
+  base: viteBase,
   resolve: {
     alias: {
       '@': path.resolve(__dirname, './src'),
