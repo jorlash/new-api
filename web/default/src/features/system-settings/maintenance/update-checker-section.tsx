@@ -1,5 +1,5 @@
 /*
-Copyright (C) 2023-2026 QuantumNous
+Copyright (C) 2023-2026 jorlash
 
 This program is free software: you can redistribute it and/or modify
 it under the terms of the GNU Affero General Public License as
@@ -62,11 +62,11 @@ export function UpdateCheckerSection({
     setChecking(true)
     try {
       const response = await fetch(
-        'https://api.github.com/repos/Calcium-Ion/new-api/releases/latest',
+        'https://api.github.com/repos/jorlash/router-hub/releases/latest',
         {
           headers: {
             Accept: 'application/vnd.github+json',
-            'User-Agent': 'new-api-dashboard',
+            'User-Agent': 'router-hub-dashboard',
           },
         }
       )

@@ -4,14 +4,14 @@ import (
 	"encoding/json"
 	"strings"
 
-	"github.com/QuantumNous/new-api/common"
-	"github.com/QuantumNous/new-api/dto"
-	"github.com/QuantumNous/new-api/logger"
-	relaycommon "github.com/QuantumNous/new-api/relay/common"
-	relayconstant "github.com/QuantumNous/new-api/relay/constant"
-	"github.com/QuantumNous/new-api/relay/helper"
-	"github.com/QuantumNous/new-api/service"
-	"github.com/QuantumNous/new-api/types"
+	"github.com/jorlash/router-hub/common"
+	"github.com/jorlash/router-hub/dto"
+	"github.com/jorlash/router-hub/logger"
+	relaycommon "github.com/jorlash/router-hub/relay/common"
+	relayconstant "github.com/jorlash/router-hub/relay/constant"
+	"github.com/jorlash/router-hub/relay/helper"
+	"github.com/jorlash/router-hub/service"
+	"github.com/jorlash/router-hub/types"
 
 	"github.com/samber/lo"
 

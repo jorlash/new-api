@@ -5,12 +5,12 @@ import (
 	"strings"
 	"time"
 
-	"github.com/QuantumNous/new-api/common"
-	"github.com/QuantumNous/new-api/logger"
-	"github.com/QuantumNous/new-api/model"
-	relaycommon "github.com/QuantumNous/new-api/relay/common"
-	"github.com/QuantumNous/new-api/setting/model_setting"
-	"github.com/QuantumNous/new-api/types"
+	"github.com/jorlash/router-hub/common"
+	"github.com/jorlash/router-hub/logger"
+	"github.com/jorlash/router-hub/model"
+	relaycommon "github.com/jorlash/router-hub/relay/common"
+	"github.com/jorlash/router-hub/setting/model_setting"
+	"github.com/jorlash/router-hub/types"
 
 	"github.com/shopspring/decimal"
 

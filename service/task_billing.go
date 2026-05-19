@@ -5,12 +5,12 @@ import (
 	"fmt"
 	"strings"
 
-	"github.com/QuantumNous/new-api/common"
-	"github.com/QuantumNous/new-api/constant"
-	"github.com/QuantumNous/new-api/logger"
-	"github.com/QuantumNous/new-api/model"
-	relaycommon "github.com/QuantumNous/new-api/relay/common"
-	"github.com/QuantumNous/new-api/setting/ratio_setting"
+	"github.com/jorlash/router-hub/common"
+	"github.com/jorlash/router-hub/constant"
+	"github.com/jorlash/router-hub/logger"
+	"github.com/jorlash/router-hub/model"
+	relaycommon "github.com/jorlash/router-hub/relay/common"
+	"github.com/jorlash/router-hub/setting/ratio_setting"
 	"github.com/gin-gonic/gin"
 )
 

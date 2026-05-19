@@ -5,10 +5,10 @@ import (
 	"io"
 	"net/http"
 
-	"github.com/QuantumNous/new-api/dto"
-	relaycommon "github.com/QuantumNous/new-api/relay/common"
-	"github.com/QuantumNous/new-api/service"
-	"github.com/QuantumNous/new-api/types"
+	"github.com/jorlash/router-hub/dto"
+	relaycommon "github.com/jorlash/router-hub/relay/common"
+	"github.com/jorlash/router-hub/service"
+	"github.com/jorlash/router-hub/types"
 
 	"github.com/gin-gonic/gin"
 )

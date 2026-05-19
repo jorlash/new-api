@@ -12,24 +12,24 @@ import (
 	"path/filepath"
 	"strings"
 
-	"github.com/QuantumNous/new-api/common"
-	"github.com/QuantumNous/new-api/constant"
-	"github.com/QuantumNous/new-api/dto"
-	"github.com/QuantumNous/new-api/logger"
-	"github.com/QuantumNous/new-api/relay/channel"
-	"github.com/QuantumNous/new-api/relay/channel/ai360"
-	"github.com/QuantumNous/new-api/relay/channel/lingyiwanwu"
+	"github.com/jorlash/router-hub/common"
+	"github.com/jorlash/router-hub/constant"
+	"github.com/jorlash/router-hub/dto"
+	"github.com/jorlash/router-hub/logger"
+	"github.com/jorlash/router-hub/relay/channel"
+	"github.com/jorlash/router-hub/relay/channel/ai360"
+	"github.com/jorlash/router-hub/relay/channel/lingyiwanwu"
 
-	//"github.com/QuantumNous/new-api/relay/channel/minimax"
-	"github.com/QuantumNous/new-api/relay/channel/openrouter"
-	"github.com/QuantumNous/new-api/relay/channel/xinference"
-	relaycommon "github.com/QuantumNous/new-api/relay/common"
-	"github.com/QuantumNous/new-api/relay/common_handler"
-	relayconstant "github.com/QuantumNous/new-api/relay/constant"
-	"github.com/QuantumNous/new-api/service"
-	"github.com/QuantumNous/new-api/setting/model_setting"
-	"github.com/QuantumNous/new-api/setting/reasoning"
-	"github.com/QuantumNous/new-api/types"
+	//"github.com/jorlash/router-hub/relay/channel/minimax"
+	"github.com/jorlash/router-hub/relay/channel/openrouter"
+	"github.com/jorlash/router-hub/relay/channel/xinference"
+	relaycommon "github.com/jorlash/router-hub/relay/common"
+	"github.com/jorlash/router-hub/relay/common_handler"
+	relayconstant "github.com/jorlash/router-hub/relay/constant"
+	"github.com/jorlash/router-hub/service"
+	"github.com/jorlash/router-hub/setting/model_setting"
+	"github.com/jorlash/router-hub/setting/reasoning"
+	"github.com/jorlash/router-hub/types"
 	"github.com/samber/lo"
 
 	"github.com/gin-gonic/gin"
@@ -217,10 +217,10 @@ func (a *Adaptor) SetupRequestHeader(c *gin.Context, header *http.Header, info *
 	}
 	if info.ChannelType == constant.ChannelTypeOpenRouter {
 		if header.Get("HTTP-Referer") == "" {
-			header.Set("HTTP-Referer", "https://www.newapi.ai")
+			header.Set("HTTP-Referer", "https://www.routerhub.ai")
 		}
 		if header.Get("X-OpenRouter-Title") == "" {
-			header.Set("X-OpenRouter-Title", "New API")
+			header.Set("X-OpenRouter-Title", "Router Hub")
 		}
 	}
 	return nil

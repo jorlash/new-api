@@ -1,10 +1,10 @@
 package controller
 
 import (
-	"github.com/QuantumNous/new-api/common"
-	"github.com/QuantumNous/new-api/model"
-	"github.com/QuantumNous/new-api/setting/operation_setting"
-	"github.com/QuantumNous/new-api/types"
+	"github.com/jorlash/router-hub/common"
+	"github.com/jorlash/router-hub/model"
+	"github.com/jorlash/router-hub/setting/operation_setting"
+	"github.com/jorlash/router-hub/types"
 	"github.com/gin-gonic/gin"
 )
 

@@ -1,8 +1,8 @@
 package setting
 
 import (
-	"github.com/QuantumNous/new-api/common"
-	"github.com/QuantumNous/new-api/constant"
+	"github.com/jorlash/router-hub/common"
+	"github.com/jorlash/router-hub/constant"
 )
 
 var (

@@ -1,5 +1,5 @@
 /*
-Copyright (C) 2023-2026 QuantumNous
+Copyright (C) 2023-2026 jorlash
 
 This program is free software: you can redistribute it and/or modify
 it under the terms of the GNU Affero General Public License as
@@ -21,13 +21,13 @@ export function sendToFluent(apiKey: string, serverAddress?: string): boolean {
     return false
   }
 
-  const container = document.getElementById('fluent-new-api-container')
+  const container = document.getElementById('fluent-router-hub-container')
   if (!container) {
     return false
   }
 
   const payload = {
-    id: 'new-api',
+    id: 'router-hub',
     baseUrl: serverAddress || window.location.origin,
     apiKey: `sk-${apiKey}`,
   }

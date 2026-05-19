@@ -6,9 +6,9 @@ import (
 	"strconv"
 	"strings"
 
-	"github.com/QuantumNous/new-api/common"
-	"github.com/QuantumNous/new-api/constant"
-	"github.com/QuantumNous/new-api/model"
+	"github.com/jorlash/router-hub/common"
+	"github.com/jorlash/router-hub/constant"
+	"github.com/jorlash/router-hub/model"
 
 	"github.com/gin-gonic/gin"
 )

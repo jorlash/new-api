@@ -9,11 +9,11 @@ import (
 	"strings"
 	"sync"
 
-	"github.com/QuantumNous/new-api/common"
-	"github.com/QuantumNous/new-api/constant"
-	"github.com/QuantumNous/new-api/dto"
-	"github.com/QuantumNous/new-api/logger"
-	"github.com/QuantumNous/new-api/types"
+	"github.com/jorlash/router-hub/common"
+	"github.com/jorlash/router-hub/constant"
+	"github.com/jorlash/router-hub/dto"
+	"github.com/jorlash/router-hub/logger"
+	"github.com/jorlash/router-hub/types"
 
 	"github.com/samber/lo"
 	"gorm.io/gorm"

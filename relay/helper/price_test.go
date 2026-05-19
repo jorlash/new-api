@@ -5,12 +5,12 @@ import (
 	"net/http/httptest"
 	"testing"
 
-	"github.com/QuantumNous/new-api/common"
-	"github.com/QuantumNous/new-api/pkg/billingexpr"
-	relaycommon "github.com/QuantumNous/new-api/relay/common"
-	"github.com/QuantumNous/new-api/setting/billing_setting"
-	"github.com/QuantumNous/new-api/setting/config"
-	"github.com/QuantumNous/new-api/types"
+	"github.com/jorlash/router-hub/common"
+	"github.com/jorlash/router-hub/pkg/billingexpr"
+	relaycommon "github.com/jorlash/router-hub/relay/common"
+	"github.com/jorlash/router-hub/setting/billing_setting"
+	"github.com/jorlash/router-hub/setting/config"
+	"github.com/jorlash/router-hub/types"
 	"github.com/gin-gonic/gin"
 	"github.com/stretchr/testify/require"
 )

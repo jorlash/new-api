@@ -9,13 +9,13 @@ import (
 	"net/http"
 	"time"
 
-	"github.com/QuantumNous/new-api/common"
-	"github.com/QuantumNous/new-api/dto"
-	"github.com/QuantumNous/new-api/logger"
-	"github.com/QuantumNous/new-api/model"
-	"github.com/QuantumNous/new-api/service"
-	"github.com/QuantumNous/new-api/setting"
-	"github.com/QuantumNous/new-api/setting/system_setting"
+	"github.com/jorlash/router-hub/common"
+	"github.com/jorlash/router-hub/dto"
+	"github.com/jorlash/router-hub/logger"
+	"github.com/jorlash/router-hub/model"
+	"github.com/jorlash/router-hub/service"
+	"github.com/jorlash/router-hub/setting"
+	"github.com/jorlash/router-hub/setting/system_setting"
 
 	"github.com/gin-gonic/gin"
 )

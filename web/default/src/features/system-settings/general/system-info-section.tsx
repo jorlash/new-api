@@ -1,5 +1,5 @@
 /*
-Copyright (C) 2023-2026 QuantumNous
+Copyright (C) 2023-2026 jorlash
 
 This program is free software: you can redistribute it and/or modify
 it under the terms of the GNU Affero General Public License as
@@ -196,7 +196,7 @@ export function SystemInfoSection({ defaultValues }: SystemInfoSectionProps) {
                 <FormItem>
                   <FormLabel>{t('System Name')}</FormLabel>
                   <FormControl>
-                    <Input placeholder={t('New API')} {...field} />
+                    <Input placeholder={t('Router Hub')} {...field} />
                   </FormControl>
                   <FormDescription>
                     {t('The name displayed across the application')}
@@ -300,7 +300,7 @@ export function SystemInfoSection({ defaultValues }: SystemInfoSectionProps) {
                   <FormLabel>{t('Home Page Content')}</FormLabel>
                   <FormControl>
                     <Textarea
-                      placeholder={t('Welcome to our New API...')}
+                      placeholder={t('Welcome to our Router Hub...')}
                       rows={6}
                       {...field}
                     />

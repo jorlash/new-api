@@ -1,0 +1,18 @@
+# File path: /etc/systemd/system/router-hub.service
+# sudo systemctl daemon-reload
+# sudo systemctl start router-hub
+# sudo systemctl enable router-hub
+# sudo systemctl status router-hub
+[Unit]
+Description=One API Service
+After=network.target
+
+[Service]
+User=ubuntu  # 注意修改用户名
+WorkingDirectory=/path/to/router-hub  # 注意修改路径
+ExecStart=/path/to/router-hub/router-hub --port 3000 --log-dir /path/to/router-hub/logs  # 注意修改路径和端口号
+Restart=always
+RestartSec=5
+
+[Install]
+WantedBy=multi-user.target

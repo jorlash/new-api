@@ -1,5 +1,5 @@
 /*
-Copyright (C) 2023-2026 QuantumNous
+Copyright (C) 2023-2026 jorlash
 
 This program is free software: you can redistribute it and/or modify
 it under the terms of the GNU Affero General Public License as
@@ -161,7 +161,7 @@ export function resolveChatUrl({
 
   if (url.includes('{cherryConfig}')) {
     const payload = {
-      id: 'new-api',
+      id: 'router-hub',
       baseUrl: safeServerAddress,
       apiKey: safeApiKey,
     }
@@ -171,7 +171,7 @@ export function resolveChatUrl({
 
   if (url.includes('{aionuiConfig}')) {
     const payload = {
-      platform: 'new-api',
+      platform: 'router-hub',
       baseUrl: safeServerAddress,
       apiKey: safeApiKey,
     }
@@ -181,7 +181,7 @@ export function resolveChatUrl({
 
   if (url.includes('{deepchatConfig}')) {
     const payload = {
-      id: 'new-api',
+      id: 'router-hub',
       baseUrl: safeServerAddress,
       apiKey: safeApiKey,
     }

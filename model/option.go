@@ -5,13 +5,13 @@ import (
 	"strings"
 	"time"
 
-	"github.com/QuantumNous/new-api/common"
-	"github.com/QuantumNous/new-api/setting"
-	"github.com/QuantumNous/new-api/setting/config"
-	"github.com/QuantumNous/new-api/setting/operation_setting"
-	"github.com/QuantumNous/new-api/setting/performance_setting"
-	"github.com/QuantumNous/new-api/setting/ratio_setting"
-	"github.com/QuantumNous/new-api/setting/system_setting"
+	"github.com/jorlash/router-hub/common"
+	"github.com/jorlash/router-hub/setting"
+	"github.com/jorlash/router-hub/setting/config"
+	"github.com/jorlash/router-hub/setting/operation_setting"
+	"github.com/jorlash/router-hub/setting/performance_setting"
+	"github.com/jorlash/router-hub/setting/ratio_setting"
+	"github.com/jorlash/router-hub/setting/system_setting"
 )
 
 type Option struct {

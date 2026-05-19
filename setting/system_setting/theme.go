@@ -1,8 +1,8 @@
 package system_setting
 
 import (
-	"github.com/QuantumNous/new-api/common"
-	"github.com/QuantumNous/new-api/setting/config"
+	"github.com/jorlash/router-hub/common"
+	"github.com/jorlash/router-hub/setting/config"
 )
 
 type ThemeSettings struct {

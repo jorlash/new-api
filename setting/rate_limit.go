@@ -6,7 +6,7 @@ import (
 	"math"
 	"sync"
 
-	"github.com/QuantumNous/new-api/common"
+	"github.com/jorlash/router-hub/common"
 )
 
 var ModelRequestRateLimitEnabled = false

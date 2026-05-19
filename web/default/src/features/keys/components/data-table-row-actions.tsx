@@ -1,5 +1,5 @@
 /*
-Copyright (C) 2023-2026 QuantumNous
+Copyright (C) 2023-2026 jorlash
 
 This program is free software: you can redistribute it and/or modify
 it under the terms of the GNU Affero General Public License as
@@ -73,7 +73,7 @@ function getServerAddress(): string {
 
 function encodeConnectionString(key: string, url: string): string {
   return JSON.stringify({
-    _type: 'newapi_channel_conn',
+    _type: 'routerhub_channel_conn',
     key,
     url,
   })

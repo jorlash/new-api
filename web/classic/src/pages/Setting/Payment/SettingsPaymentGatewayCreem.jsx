@@ -1,5 +1,5 @@
 /*
-Copyright (C) 2025 QuantumNous
+Copyright (C) 2025 jorlash
 
 This program is free software: you can redistribute it and/or modify
 it under the terms of the GNU Affero General Public License as
@@ -291,7 +291,7 @@ export default function SettingsPaymentGatewayCreem(props) {
                 field='CreemWebhookSecret'
                 label={t('Webhook 签名密钥')}
                 placeholder={t(
-                  '用于验证回调 new-api 的 webhook 请求的密钥，敏感信息不显示',
+                  '用于验证回调 router-hub 的 webhook 请求的密钥，敏感信息不显示',
                 )}
                 type='password'
               />

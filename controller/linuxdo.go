@@ -11,8 +11,8 @@ import (
 	"strings"
 	"time"
 
-	"github.com/QuantumNous/new-api/common"
-	"github.com/QuantumNous/new-api/model"
+	"github.com/jorlash/router-hub/common"
+	"github.com/jorlash/router-hub/model"
 
 	"github.com/gin-contrib/sessions"
 	"github.com/gin-gonic/gin"

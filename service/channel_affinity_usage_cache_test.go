@@ -6,8 +6,8 @@ import (
 	"testing"
 	"time"
 
-	"github.com/QuantumNous/new-api/dto"
-	"github.com/QuantumNous/new-api/types"
+	"github.com/jorlash/router-hub/dto"
+	"github.com/jorlash/router-hub/types"
 	"github.com/gin-gonic/gin"
 	"github.com/stretchr/testify/require"
 )

@@ -3,7 +3,7 @@ package model
 import (
 	"strconv"
 
-	"github.com/QuantumNous/new-api/common"
+	"github.com/jorlash/router-hub/common"
 
 	"gorm.io/gorm"
 )

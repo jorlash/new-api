@@ -7,12 +7,12 @@ import (
 	"strings"
 	"time"
 
-	"github.com/QuantumNous/new-api/common"
-	"github.com/QuantumNous/new-api/logger"
-	"github.com/QuantumNous/new-api/model"
-	"github.com/QuantumNous/new-api/service"
-	"github.com/QuantumNous/new-api/setting"
-	"github.com/QuantumNous/new-api/setting/operation_setting"
+	"github.com/jorlash/router-hub/common"
+	"github.com/jorlash/router-hub/logger"
+	"github.com/jorlash/router-hub/model"
+	"github.com/jorlash/router-hub/service"
+	"github.com/jorlash/router-hub/setting"
+	"github.com/jorlash/router-hub/setting/operation_setting"
 	"github.com/gin-gonic/gin"
 	"github.com/shopspring/decimal"
 	"github.com/thanhpk/randstr"
@@ -97,7 +97,7 @@ func getWaffoPancakeBuyerEmail(user *model.User) string {
 		return user.Email
 	}
 	if user != nil {
-		return fmt.Sprintf("%d@new-api.local", user.Id)
+		return fmt.Sprintf("%d@router-hub.local", user.Id)
 	}
 	return ""
 }
