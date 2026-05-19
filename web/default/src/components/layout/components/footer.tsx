@@ -116,15 +116,15 @@ export function Footer(props: FooterProps) {
         links: [
           {
             text: t('footer.columns.about.links.aboutProject'),
-            href: 'https://docs.routerhub.pro/wiki/project-introduction/',
+            href: 'https://docs.newapi.pro/en/docs/guide/wiki/basic-concepts/project-introduction',
           },
           {
             text: t('footer.columns.about.links.contact'),
-            href: 'https://docs.routerhub.pro/support/community-interaction/',
+            href: 'https://docs.newapi.pro/en/docs/support/community-interaction',
           },
           {
             text: t('footer.columns.about.links.features'),
-            href: 'https://docs.routerhub.pro/wiki/features-introduction/',
+            href: 'https://docs.newapi.pro/en/docs/guide/wiki/basic-concepts/features-introduction',
           },
         ],
       },
@@ -133,15 +133,15 @@ export function Footer(props: FooterProps) {
         links: [
           {
             text: t('footer.columns.docs.links.quickStart'),
-            href: 'https://docs.routerhub.pro/getting-started/',
+            href: 'https://docs.newapi.pro/en/docs',
           },
           {
             text: t('footer.columns.docs.links.installation'),
-            href: 'https://docs.routerhub.pro/installation/',
+            href: 'https://docs.newapi.pro/en/docs/installation',
           },
           {
             text: t('footer.columns.docs.links.apiDocs'),
-            href: 'https://docs.routerhub.pro/api/',
+            href: 'https://docs.newapi.pro/en/docs/api',
           },
         ],
       },

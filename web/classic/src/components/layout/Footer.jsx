@@ -63,7 +63,7 @@ const FooterBar = () => {
                 </p>
                 <div className='flex flex-col gap-4'>
                   <a
-                    href='https://docs.routerhub.pro/wiki/project-introduction/'
+                    href='https://docs.newapi.pro/en/docs/guide/wiki/basic-concepts/project-introduction'
                     target='_blank'
                     rel='noopener noreferrer'
                     className='!text-semi-color-text-1'
@@ -71,7 +71,7 @@ const FooterBar = () => {
                     {t('关于项目')}
                   </a>
                   <a
-                    href='https://docs.routerhub.pro/support/community-interaction/'
+                    href='https://docs.newapi.pro/en/docs/support/community-interaction'
                     target='_blank'
                     rel='noopener noreferrer'
                     className='!text-semi-color-text-1'
@@ -79,7 +79,7 @@ const FooterBar = () => {
                     {t('联系我们')}
                   </a>
                   <a
-                    href='https://docs.routerhub.pro/wiki/features-introduction/'
+                    href='https://docs.newapi.pro/en/docs/guide/wiki/basic-concepts/features-introduction'
                     target='_blank'
                     rel='noopener noreferrer'
                     className='!text-semi-color-text-1'
@@ -95,7 +95,7 @@ const FooterBar = () => {
                 </p>
                 <div className='flex flex-col gap-4'>
                   <a
-                    href='https://docs.routerhub.pro/getting-started/'
+                    href='https://docs.newapi.pro/en/docs'
                     target='_blank'
                     rel='noopener noreferrer'
                     className='!text-semi-color-text-1'
@@ -103,7 +103,7 @@ const FooterBar = () => {
                     {t('快速开始')}
                   </a>
                   <a
-                    href='https://docs.routerhub.pro/installation/'
+                    href='https://docs.newapi.pro/en/docs/installation'
                     target='_blank'
                     rel='noopener noreferrer'
                     className='!text-semi-color-text-1'
@@ -111,7 +111,7 @@ const FooterBar = () => {
                     {t('安装指南')}
                   </a>
                   <a
-                    href='https://docs.routerhub.pro/api/'
+                    href='https://docs.newapi.pro/en/docs/api'
                     target='_blank'
                     rel='noopener noreferrer'
                     className='!text-semi-color-text-1'
